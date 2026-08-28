@@ -1,0 +1,8 @@
+{
+  "accepted": [
+    {
+      "file": "scripts/with_server.py",
+      "reason": "Anthropic's own test helper. It starts the development server the browser tests need, through a shell, which is what the script is for. Read line by line before signing: it launches the command it was given, waits for the port, and kills it afterwards. This is the one plugin in this catalog that runs a shell command on your machine by design, and its ATTRIBUTION.md says so."
+    }
+  ]
+}
