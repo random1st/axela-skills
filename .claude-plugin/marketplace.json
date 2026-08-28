@@ -1,0 +1,65 @@
+{
+  "name": "axela-skills",
+  "owner": {
+    "name": "Roman Voronin",
+    "email": "voroninr@gmail.com"
+  },
+  "description": "Curated, security-reviewed and cryptographically signed agent skills. Each plugin is byte-identical to a pinned upstream commit, carries its upstream license and attribution, and was read - instructions and executables - before signing. Verified end-to-end by SkillTrust: publisher signature + notary countersignature, revocation included.",
+  "plugins": [
+    {
+      "name": "test-driven-development",
+      "source": "./plugins/test-driven-development",
+      "description": "Use when implementing any feature or bugfix, before writing implementation code"
+    },
+    {
+      "name": "systematic-debugging",
+      "source": "./plugins/systematic-debugging",
+      "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes"
+    },
+    {
+      "name": "verification-before-completion",
+      "source": "./plugins/verification-before-completion",
+      "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always"
+    },
+    {
+      "name": "writing-plans",
+      "source": "./plugins/writing-plans",
+      "description": "Use when you have a spec or requirements for a multi-step task, before touching code"
+    },
+    {
+      "name": "requesting-code-review",
+      "source": "./plugins/requesting-code-review",
+      "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements"
+    },
+    {
+      "name": "code-review-and-quality",
+      "source": "./plugins/code-review-and-quality",
+      "description": "Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch."
+    },
+    {
+      "name": "git-workflow-and-versioning",
+      "source": "./plugins/git-workflow-and-versioning",
+      "description": "Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, opening or reviewing a pull request (PR), pushing to a remote, or when you need to organize work across multiple parallel streams. Use when cutting a release, choosing a semantic version bump, tagging, or writing a changelog."
+    },
+    {
+      "name": "security-and-hardening",
+      "source": "./plugins/security-and-hardening",
+      "description": "Hardens code against vulnerabilities. Use when handling user input, authentication, data storage, or external integrations. Use when building any feature that accepts untrusted data, manages user sessions, or interacts with third-party services. Use when personal data or privacy compliance (GDPR, CCPA) is involved."
+    },
+    {
+      "name": "debugging-and-error-recovery",
+      "source": "./plugins/debugging-and-error-recovery",
+      "description": "Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need a systematic approach to finding and fixing the root cause rather than guessing."
+    },
+    {
+      "name": "mcp-builder",
+      "source": "./plugins/mcp-builder",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK)."
+    },
+    {
+      "name": "webapp-testing",
+      "source": "./plugins/webapp-testing",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs."
+    }
+  ]
+}
