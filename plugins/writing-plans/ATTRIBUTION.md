@@ -9,5 +9,6 @@
 - **Note**: the text may reference other `superpowers:*` skills; only the ones present in this catalog are available here.
 - **Security review**: 2026-08-28, before signing. Full read of the skill instructions and every executable;
   automated scan of all files for prompt-injection patterns, hidden unicode and undisclosed network calls.
+- **Scanner**: SkillSpector caution, score 0, static analysis only (no file contents were sent to any model).
 - **What our signature claims**: this exact content, from this source, passed that review. It does not prove
   the skill is right for your threat model, and it cannot vouch for anything the skill fetches at runtime.

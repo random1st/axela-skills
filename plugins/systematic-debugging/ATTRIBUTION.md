@@ -9,5 +9,8 @@
 - **Note**: the text may reference other `superpowers:*` skills; only the ones present in this catalog are available here.
 - **Security review**: 2026-08-28, before signing. Full read of the skill instructions and every executable;
   automated scan of all files for prompt-injection patterns, hidden unicode and undisclosed network calls.
+- **Scanner**: SkillSpector do not install, score 52, static analysis only (no file contents were sent to any model).
+  Signed over the refusal. The high findings are the name of the macOS credential store and a two-word
+  phrase about gathering diagnostic state, both in a passage listing places to look when reproducing a bug. No code, no network calls.
 - **What our signature claims**: this exact content, from this source, passed that review. It does not prove
   the skill is right for your threat model, and it cannot vouch for anything the skill fetches at runtime.
