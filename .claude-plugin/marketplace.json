@@ -1,0 +1,14 @@
+{
+  "name": "e2e-b71bd571-skills",
+  "owner": {
+    "name": "Axela release smoke"
+  },
+  "plugins": [
+    {
+      "name": "release-smoke",
+      "source": "./plugins/release-smoke",
+      "version": "1.0.0",
+      "description": "A harmless release verification fixture."
+    }
+  ]
+}
