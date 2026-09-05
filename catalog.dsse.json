@@ -1,0 +1,10 @@
+{
+  "payloadType": "application/vnd.skilltrust.catalog.v1+json",
+  "payload": "eyJ2ZXJzaW9uIjoxLCJzZXF1ZW5jZSI6MSwiaXNzdWVkX2F0IjoiMjAyNi0wOS0wNVQxMjoxOTozOFoiLCJ2YWxpZF91bnRpbCI6IjIwMjYtMDktMTJUMTI6MTk6MzhaIiwibmFtZSI6ImUyZS1iNzFiZDU3MS1za2lsbHMiLCJza2lsbHMiOlt7Im5hbWUiOiJyZWxlYXNlLXNtb2tlIiwiZGlnZXN0Ijoic2hhMjU2OjFhOTE2MmNmMjFiODI3MjczNzY1ZmNlM2FhYmMyNDNkNTA2ZWY1NzEyNWE5Zjc3N2MxZWMzNTgyODFjZjM3OGIiLCJ2ZXJzaW9uIjoiMS4wLjAifV0sInJldm9rZWQiOm51bGx9",
+  "signatures": [
+    {
+      "keyid": "sha256:6d6fc8b9edf8df6f3939a98aca709b340439d719e392dca15a022b5d5fea98cd",
+      "sig": "FtW+xL0KVPiyao15OMI/i5LHEhPY7ae0uoZCz45i6WRXaEZ/neyg6vUV0PG30yDNAzqNnKSUOHZ2Fu/4RC+oBw=="
+    }
+  ]
+}
